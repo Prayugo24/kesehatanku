@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail__jantung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.ad_srtarevolution.course_1.Detail_PenyakitActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/textColor"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/Iv_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/textColor"
+        />
+    <TextView
+        android:id="@+id/Tv_judulPjantng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@color/textDark"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:background="@color/textColor"
+        android:layout_below="@+id/Iv_gambar"/>
+
+    <WebView
+        android:layout_marginTop="20dp"
+        android:id="@+id/Tv_penjelasan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:layout_below="@+id/Tv_judulPjantng"/>
+
+    <Button
+        android:id="@+id/bt_lihatVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tv_penjelasan"
+        android:text="@string/video"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        />
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

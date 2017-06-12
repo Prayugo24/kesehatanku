@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">course_1</string>
+    <string name="usernameEmail_list">Email</string>
+    <string name="password_list">Password</string>
+    <string name="login_btn">Login</string>
+    <string name="reset_btn">Reset</string>
+    <string name="jdul_logo">Gejala Penyakit</string>
+    <string name="menu_penyakitJantung">Jantung</string>
+    <string name="menu_penyakitParu">Paru-Paru</string>
+    <string name="menu_penyakitMata">Kornea</string>
+    <string name="video">Lihat Video</string>
+    <string name="menu">Menu</string>
+    <string name="about">About</string>
+</resources>
